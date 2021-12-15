@@ -23,92 +23,38 @@ h3 ul {
   .colorconectate .colorconectate:hover {
     transform: scaleX(2); }
 
+ul {
+  align-items: center; }
+  ul li {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-around; }
 
 .video {
-  align-content: center;
   margin-top: 5%;
-  margin-left: 15%; }
+  margin-left: 32%;
+  margin-bottom: 5%; }
 
-.imagen_fondo1{
-  background-image: url(../imagenes/grapes-ge16b874e6_1280.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 20em;}
+.rutas li {
+  list-style-position: initial;
+  margin: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+  .rutas li .rutas {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+    align-content: center; }
 
-.imagen_fondo2{
-  background-image: url(../imagenes/cow-g0218c5907_1920.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 20em;
-  margin-top: 10%;}
-.imagen_fondo3{
-  background-image: url(../imagenes/yerba-mate-g76934b3cb_1920.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 20em;
-  margin-top: 10%}  
-.titulo_v{
-  color: black;
-  text-align: center;
-  padding-top: 1em;} 
-.texto_v{
-  color: black;
-  text-align: center;
-  padding-top: 2em;
-  font-weight: bold;}
+.rutas img {
+  display: block;
+  margin: auto; }
 
-.btn-wsp{
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  bottom: 30px;
-  right: 30px;}
-.btn-ig{
-  position: fixed;
-  width: 55px;
-  height: 120px;
-  line-height: 55px;
-  bottom: 30px;
-  right: 30px;} 
-.btn-fb{
-  position: fixed;
-  width: 55px;
-  height: 190px;
-  line-height: 55px;
-  bottom: 30px;
-  right: 30px;}
-
-.imagen-nos{
-  background-image: url(../imagenes/hands-gfec31aabc_1920.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 50em;}
-.texto-nos{
-  font-weight: bold;
-}
-
-.imagen-sost{
-  background-image: url(../imagenes/nature-gb871f1b1b_1920.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 50em;}
-.loremsostenible{
-  color: rgb(248, 229, 52);
-  font-weight: bold;}
-
-  
 .card {
   display: block;
   margin: auto; }
-.card1{
-  margin-left: 10%;
-}
+
 .estiloRuta {
   color: darkorange; }
 
